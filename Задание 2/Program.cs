@@ -11,11 +11,11 @@ Console.Write("Введите B: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 if (numberA > numberB)
 {
-    Console.WriteLine("Max A");
+    Console.WriteLine("Наибольшее число: " + numberA);
 }
 else
 {
-    Console.WriteLine("Max B");
+    Console.WriteLine("Наибольшее число: " + numberB);
 }
 
 
